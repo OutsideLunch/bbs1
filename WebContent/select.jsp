@@ -94,6 +94,7 @@
 			</div>
 			<a href="./list.jsp">목록으로</a>
 			<a href="./modify.jsp?num=<%= num %>">수정하기</a>
+			<a href="./delete.jsp?num=<%= num %>">삭제하기</a>
 			<%
 		}
 		catch (SQLException ex) {

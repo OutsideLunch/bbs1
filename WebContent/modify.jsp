@@ -36,6 +36,8 @@
 				<input type="text" id="title" name="title" value='<%=rs.getString("title") %>'><br>
 				<label for="comments">내용 : </label>
 				<textarea rows="5" cols="80" id="comments" name="comments"><%=rs.getString("comments") %></textarea><br>
+				<input type="hidden" name="num" value="<%=num %>">
+				<input type="hidden" name="views" value='<%=rs.getString("views") %>'>
 				<button type="submit">수정</button>
 				<button type="reset">취소</button>
 			</form>
